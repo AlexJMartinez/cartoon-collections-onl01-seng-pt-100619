@@ -1,7 +1,7 @@
 
 
-def roll_call_dwarves(dwarf)
-  dwarf.each.with_index(0) do |value, index|
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |value, index|
     puts "#{index}. #{value}"
 end
 
