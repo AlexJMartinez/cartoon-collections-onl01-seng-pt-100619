@@ -2,7 +2,7 @@
 
 def roll_call_dwarves(dwarf)
   dwarf.each_with_index do |dwarf, index|
-    return "#{index}. #{dwarf}"
+    puts "#{index}. #{dwarf}"
 end
 
 end
