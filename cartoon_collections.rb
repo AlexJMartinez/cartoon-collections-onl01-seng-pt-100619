@@ -27,4 +27,5 @@ def find_the_cheese(array)
  if array.find {|c| c.include?("cheddar", "gouda", "camembert")}
  else
    nil
+ end
 end
