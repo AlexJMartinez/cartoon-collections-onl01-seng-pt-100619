@@ -1,8 +1,8 @@
 
 
-def roll_call_dwarves(output)
-  output.each_with_index do |index, value|
-    puts "#{index}. #{value}"
+def roll_call_dwarves(dwarves, i)
+  dwarves.each_with_index do |i, dwarf|
+    puts "#{i}. #{dwarf}"
 end
 
 end
